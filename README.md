@@ -113,15 +113,15 @@ docker run --name wizeline-mkdocs-template -p 9090:9090 --volume="$PWD:/app" tw-
 2. Locate the wizeline-mkdocs-template container and start it.
 
 ## Create static site
-1. Create a branch in GitHub named `**gh-pages**`
+1. Create a branch in GitHub named **`gh-pages`**
 2. In GitHub Settings, go to the **GitHub Pages** section
-3. Configure the `**gh-pages*` branch and the `**/docs**` folder as the source of your GitHub Pages site.
+3. Configure the **`gh-pages`** branch and the **`/docs`** folder as the source of your GitHub Pages site.
 4. From the terminal, change directory to the `tw-mkdocs` folder in your project's repository.
 5. Execute the following command in the terminal to fetch the changes in GitHub.
 ```
 git fetch
 ```
-6. Checkout to the `**gh-pages**` branch.
+6. Checkout to the **`gh-pages`** branch.
 ```
 git checkout gh-pages
 ```
@@ -141,7 +141,7 @@ git commit -m "Create static site folders"
 ```
 git push origin gh-pages
 ```
-11. From the `**gh-pages**` branch, delete the `README.md` file that is in the root of the project's folder in your local machine. This is to avoid problems with the folder that the static site takes to build.
+11. From the **`gh-pages`** branch, delete the `README.md` file that is in the root of the project's folder in your local machine. This is to avoid problems with the folder that the static site takes to build.
 12. Add the changes to git.
 ```
 git add ../README.md
