@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Contact: contact-page.md
+  - My Description: description-page.md
 
 theme:
   name: material
